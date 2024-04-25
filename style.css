@@ -1,0 +1,55 @@
+html {
+    height:100%
+}
+.body {
+    background-image: linear-gradient(to top right, rgb(206, 248, 228), rgba(0, 248, 174, 0.986)); 
+    
+}
+
+
+.title
+{   
+    text-align: center;
+    color: rgb(0, 0, 0);
+    Font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, sans-serif;
+    font-size: 300%;
+   
+}
+.tBill
+{
+    margin-top: 100px;
+    Font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, sans-serif;
+    text-align: center;     
+}
+.tPerc
+{   
+    margin-top: 100px;
+    text-align: center;
+    Font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, sans-serif;
+}
+.calc {
+    margin-top: 20px; 
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.inputB
+{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+.inputP
+{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+.tip
+{
+    Font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, sans-serif;
+    text-align: center;
+    font-size: 200%;
+    
+}
