@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="tip.js"></script> 
     <meta charset="UTF-8">
@@ -11,10 +12,13 @@
 </head>
 <body class="body" onload=" calcTip()">
     <h2 class="tBill">  Enter the total bill</h2>
+    <div id="all">
     <input class="inputB" type="number" name="totalBill" id="totalBill" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))">
     <h2 class="tPerc"> Enter the tip percentage</h2>
     <input class= "inputP" type="number" name="tipPercentage" id="tipPercentage" min="0" max="100" maxlength="2" oninput="truncateDigits(this)"onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))">
+    
     <button class="calc" onclick="calcTip()">Calculate Tip</button>
-    <output class="tip"> tip =  <span id="tip"></span> </output>
+    <output class="tip"> <span id="tip"></span> </output>
+    </div>
 </body>
 </html>
