@@ -1,9 +1,13 @@
-html {
+html, body {
     height: 100%;
+    margin: 0;
+    overflow: hidden;
 }
 
 .body {
     background-image: linear-gradient(to top right, rgb(153, 205, 212), rgba(255, 255, 255, 0.986));
+    background-size: cover; 
+    background-attachment: fixed; 
 }
 
 #all {
@@ -14,21 +18,26 @@ html {
 }
 
 .title {
-    margin-top: 100px;
+    margin-top: 10%;
     text-align: center;
     color: #000000; 
     font-family: Arial, sans-serif; 
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
-.tBill, .tPerc {
-    margin-top: 20px;
+.tBill{
+    margin-top: 70px;
+    text-align: center;
+    font-family: Arial, sans-serif; 
+}
+.tPerc
+{
     text-align: center;
     font-family: Arial, sans-serif; 
 }
 
 .calc {
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -82,7 +91,7 @@ html {
 }
 
 .tip {
-    margin-top: 100px;
+    margin-top: 50px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 3rem;    
