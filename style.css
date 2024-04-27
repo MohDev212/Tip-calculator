@@ -2,6 +2,8 @@ html, body {
     height: 100%;
     margin: 0;
     overflow: hidden;
+    height: 100vh;  /* standard definition (as fallback) */
+    height: 100dvh; /* dynamic vh will make the trick on iOS */
 }
 
 .body {
@@ -26,7 +28,7 @@ html, body {
 }
 
 .tBill{
-    margin-top: 70px;
+    margin-top: 5px;
     text-align: center;
     font-family: Arial, sans-serif; 
 }
